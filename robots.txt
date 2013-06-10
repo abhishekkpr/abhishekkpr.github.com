@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://abhishekkpr.github.io/sitemap.xml 
