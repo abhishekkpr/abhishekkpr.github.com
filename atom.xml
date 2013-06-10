@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://abhishekkpr.github.io/atom.xml" rel="self"/>
   <link href="http://abhishekkpr.github.io/"/>
-  <updated>2013-06-10T10:41:03+05:30</updated>
+  <updated>2013-06-10T10:54:19+05:30</updated>
   <id>http://abhishekkpr.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[rake generate error]]></title>
+    <link href="http://abhishekkpr.github.io/blog/2013/06/04/rake-generate-error/"/>
+    <updated>2013-06-04T18:07:00+05:30</updated>
+    <id>http://abhishekkpr.github.io/blog/2013/06/04/rake-generate-error</id>
+    <content type="html"><![CDATA[<p>&ldquo;Error during rake generate&rdquo;</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Could not find rake-0.9.2.2 in any of the sources
+</span><span class='line'>Run `bundle install` to install missing gems.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Please try this command.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>/bin/bash --login</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[how we test browsers!!]]></title>
