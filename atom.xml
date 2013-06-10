@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://abhishekkpr.github.io/atom.xml" rel="self"/>
   <link href="http://abhishekkpr.github.io/"/>
-  <updated>2013-06-10T10:04:37+05:30</updated>
+  <updated>2013-06-10T10:41:03+05:30</updated>
   <id>http://abhishekkpr.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,71 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[how we test browsers!!]]></title>
+    <link href="http://abhishekkpr.github.io/blog/2013/06/04/how-we-test-browsers/"/>
+    <updated>2013-06-04T18:07:00+05:30</updated>
+    <id>http://abhishekkpr.github.io/blog/2013/06/04/how-we-test-browsers</id>
+    <content type="html"><![CDATA[<p>by CNET</p>
+
+<p> The Web browser is the most-used kind of software in the world, having become the de facto way that people access the Internet. Today, virtually all computing tasks can be completed in the browser.</p>
+
+<p>Testing browsers can veer from incredibly complex to shockingly simple, depending on what you&rsquo;re looking for and why. At CNET, we prefer a holistic approach to browser benchmarking, looking at a combination of tests that benchmark general browser behavior, as well as several &ldquo;real-world&rdquo; tests that look at browser performance in common scenarios.</p>
+
+<h3>How we test desktop browsers</h3>
+
+
+<p>We run each of the following three times, and restart the computer before each test, so that the browser is starting &ldquo;cold.&rdquo; We also wait 30 seconds after booting the browser to ensure that any background processes have been completed. Then we average the three tests.</p>
+
+<h3>  Performance benchmarks</h3>
+
+
+<p>The <a href="http://acid3.acidtests.org/">Acid3</a> test from the <a href="http://www.webstandards.org/">Web Standards Project</a> checks browser compliance with accepted standards. Slightly outdated since it doesn&rsquo;t look at HTML5, which has now been finalized, it remains a good way to establish a baseline. Browsers that don&rsquo;t hit 100 out of 100 on the Acid3 are behind the times in a fundamental, crucial way.</p>
+
+<p><a href=https://developers.google.com/octane/  target=_blank" >Google Octane</a>, the successor to Google&rsquo;s <a href=http://v8.googlecode.com/svn/data/benchmarks/v7/run.html target=_blank>  V8 benchmark test</a>, looks at JavaScript performance by testing such areas as code optimization, encryption and decryption, emulation, and array manipulation, and assigning each subtest a number. The higher the final score, the better.</p>
+
+<p><a href=http://krakenbenchmark.mozilla.org/ target=_blank>Mozilla Kraken</a> is another JavaScript performance test, which looks specifically at rendering times for audio, imaging, AI, JSON, and encryption. A smaller number is better for the final score.</p>
+
+<p>The <a href=http://html5test.com/ target=_blank>HTML5 Test</a> assigns points for each HTML5 feature that the browser supports, out of a total of 500. This is a rough way to gauge how future-forward the browser is.</p>
+
+<p><a href=https://github.com/facebook/jsgamebench/ target=_blank>JSGameBench</a>, GUImark3 (<a href=http://www.craftymind.com/factory/guimark2/HTML5GamingTest.html target=_blank>gaming test</a>, <a href=http://www.craftymind.com/factory/guimark2/HTML5TextTest.html target=_blank >text test</a>), and <a href=http://ie.microsoft.com/testdrive/views/sitemap target=_blank >Microsoft FishIE Tank </a>look at HTML5 Canvas performance in several different game-like environments. Canvas is an important part of HTML5 to test because it creates all the nifty 2D images and shapes that can move across your screen.</p>
+
+<p> Each of these three tests uses a different standard. FishIE Tank, for example, lets the tester set the number of fish on the screen. The test will then show you in how many frames per second they can be rendered.</p>
+
+<p>Microsoft Chalkboard runs a series of timed tests on HTML5 panning, zooming, and scaling. Faster is better.</p>
+
+<p>Facebook Ringmark checks HTML5 feature support, geared for the needs of the mobile browser. Nevertheless, it works well on desktops and provides a good and rare point of comparison between desktop and mobile.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Institute of Informatics &amp; Communication (IIC)]]></title>
+    <link href="http://abhishekkpr.github.io/blog/2013/06/01/institute-of-informatics-and-communication-iic/"/>
+    <updated>2013-06-01T14:06:00+05:30</updated>
+    <id>http://abhishekkpr.github.io/blog/2013/06/01/institute-of-informatics-and-communication-iic</id>
+    <content type="html"><![CDATA[<p>The Institute of Informatics and Communication of the University of Delhi South Campus is a unique institution from several points of view. For one, it offers a two-year M Sc (Informatics) and three-year MIT course* that combines high-end knowledge with useful real world applications in several areas of information technology and communications. For another, it trains the student to think analytically and imparts a degree of maturity and independence to the student through some innovative schemes. The Institute also trains its students to imbibe the ability to stay abreast with recent developments in the various areas that are related to Informatics so that they are able to perform at optimum levels in their subsequent professional careers. The curriculum at Institute of Informatics and Communication (IIC) attempts to prepare its graduates for meaningful and challenging jobs in IT Industry. The learning environment in the Institute encourages initiative, teamwork and development of entrepreneurial skills.</p>
+
+<p>The learning approach at IIC includes classroom lectures, tutorials, project assignment and Internet access. The students are encouraged to develop their skills and acquire theoretical knowledge and practical training in electronics, telecommunication and computer hardware and software. To improve the communication skills of students and to increase their confidence, students are required to make presentations with the help of visual aids during the fortnightly seminar sessions.</p>
+
+<p>The management of the Institute and its Advisory Board consists of competent individuals drawn from the fields of education and training, administration and industry. Their vision and experience have been a constant source of energy to shape the growth and functioning of the Institute.</p>
+
+<p>The selection process to enter the Postgraduate programme is rigorous and the number of seats is restricted to ensure quality education.  The Institute provides an excellent environment for learning and innovation.</p>
+
+<p>IIC graduates have been well-placed in Government, Public, Private and Multinational organization through Campus placements such as HSS, C-DOT, HFCL, Bharti Telecom, Siemens, Wipro Technologies, IBM, HCL-Perot, Infosys Technologies and many other corporate and government organisations.</p>
+
+<p>Managing Committee:</p>
+
+<ul>
+<li>Prof. Dinesh Singh, Chairman, UDSC</li>
+<li><p>Dr. M. K. Das, IIC</p></li>
+<li><p>Mr. Kiran Karnik</p></li>
+<li><p>Dr. Sanjeev Singh, IIC</p></li>
+<li><p>Dr. S.N. Maheshwari, IIT Delhi</p></li>
+<li>Dr. Mridula Gupta, DoES, UDSC</li>
+</ul>
+
+]]></content>
+  </entry>
   
 </feed>
